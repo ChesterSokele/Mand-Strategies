@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Manda Strategies · Subnational Diplomacy & Equity Consulting</title>
-    <!-- ========== SEO META ========== -->
+    <!-- SEO Meta -->
     <meta name="description" content="Manda Strategies provides equity-centered subnational diplomacy, urban development, and public policy consulting. We help governments, nonprofits, and global organizations navigate complex environments and build resilient communities." />
     <meta name="keywords" content="subnational diplomacy, international engagement, urban development, equity policy, Los Angeles consulting, public affairs, government relations, nonprofit development, mega-event strategy, FIFA 2026, Olympics 2028, transportation equity, community engagement, CSR" />
     <meta name="robots" content="index, follow" />
@@ -15,9 +15,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.mandastrategies.com/" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Manda Strategies · Subnational Diplomacy & Equity Consulting" />
-    <meta name="twitter:description" content="Equity-centered consulting for global-local impact. Specializing in policy, international relations, and urban development." />
-    <!-- favicon (same as logo symbol) -->
+    <!-- favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⨁</text></svg>" />
     <!-- Font Awesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
@@ -39,7 +37,7 @@
         .container {
             max-width: 1300px;
             margin: 0 auto;
-            padding: 0 2.5rem;
+            padding: 0 1.5rem;
         }
 
         /* ===== LOGO / BRAND ===== */
@@ -47,18 +45,20 @@
             display: flex;
             align-items: center;
             gap: 0.75rem;
+            flex-shrink: 0;
         }
 
         .logo-symbol {
-            width: 48px;
-            height: 48px;
+            width: 42px;
+            height: 42px;
             background: linear-gradient(145deg, #003b4f 0%, #1b5e6b 100%);
-            border-radius: 16px 4px 16px 4px;
+            border-radius: 14px 4px 14px 4px;
             display: flex;
             align-items: center;
             justify-content: center;
             box-shadow: 0 10px 15px -6px rgba(0, 59, 79, 0.3);
             overflow: hidden;
+            flex-shrink: 0;
         }
 
         .logo-symbol img {
@@ -69,14 +69,14 @@
 
         .logo-symbol span {
             color: #f0d3b0;
-            font-size: 2rem;
+            font-size: 1.8rem;
             font-weight: 700;
             letter-spacing: -0.05em;
             filter: drop-shadow(2px 2px 0 #002c3b);
         }
 
         .logo-text {
-            font-size: 1.8rem;
+            font-size: 1.4rem;
             font-weight: 700;
             letter-spacing: -0.02em;
             color: #002e40;
@@ -84,12 +84,12 @@
         }
 
         .logo-tagline {
-            font-size: 0.7rem;
+            font-size: 0.6rem;
             text-transform: uppercase;
             letter-spacing: 2px;
             color: #b56532;
             font-weight: 600;
-            margin-top: -0.3rem;
+            margin-top: -0.2rem;
         }
 
         /* ===== NAV ===== */
@@ -97,21 +97,23 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 1.5rem 0;
+            padding: 1rem 0;
             flex-wrap: wrap;
+            gap: 0.8rem;
             border-bottom: 1px solid rgba(0, 80, 100, 0.08);
         }
 
         .nav-links {
             display: flex;
-            gap: 2.5rem;
+            gap: 1.5rem;
             font-weight: 500;
+            flex-wrap: wrap;
         }
 
         .nav-links a {
             text-decoration: none;
             color: #1c3d4c;
-            font-size: 1rem;
+            font-size: 0.95rem;
             transition: color 0.2s;
             border-bottom: 2px solid transparent;
             padding-bottom: 4px;
@@ -125,10 +127,10 @@
         .btn-outline {
             border: 1.5px solid #1d5a6d;
             background: transparent;
-            padding: 0.6rem 1.8rem;
+            padding: 0.5rem 1.4rem;
             border-radius: 60px;
             font-weight: 600;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             color: #1d5a6d;
             cursor: pointer;
             transition: 0.2s;
@@ -144,11 +146,11 @@
         .btn-primary {
             background: #1d5a6d;
             border: none;
-            padding: 0.8rem 2.5rem;
+            padding: 0.7rem 2rem;
             border-radius: 60px;
             font-weight: 600;
             color: white;
-            font-size: 1rem;
+            font-size: 0.95rem;
             cursor: pointer;
             transition: 0.2s;
             display: inline-flex;
@@ -159,16 +161,39 @@
 
         .btn-primary:hover {
             background: #134552;
-            transform: scale(1.01);
+            transform: scale(1.02);
+        }
+
+        .btn-learn {
+            background: transparent;
+            border: 1.5px solid #b56532;
+            color: #b56532;
+            padding: 0.5rem 1.8rem;
+            border-radius: 60px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+            margin-top: 0.5rem;
+        }
+
+        .btn-learn:hover {
+            background: #b56532;
+            color: white;
+            transform: translateX(4px);
         }
 
         /* ===== SECTION TITLE ===== */
         .section-title {
-            font-size: 2.4rem;
+            font-size: 2rem;
             font-weight: 600;
             letter-spacing: -0.02em;
             color: #002e40;
-            margin-bottom: 2rem;
+            margin-bottom: 1.8rem;
         }
 
         .section-title i {
@@ -176,92 +201,166 @@
             margin-right: 0.8rem;
         }
 
-        /* ===== IMAGE PLACEHOLDER ===== */
+        /* ===== HERO SECTION with background image ===== */
+        .hero-section {
+            position: relative;
+            padding: 4rem 2rem;
+            margin: 1.5rem 0 2rem;
+            border-radius: 40px;
+            overflow: hidden;
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-section .hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=1400&h=600&fit=crop&crop=center') center/cover no-repeat;
+            filter: brightness(0.7) saturate(1.1);
+            z-index: 0;
+        }
+
+        .hero-section .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(0, 30, 40, 0.75) 0%, rgba(0, 50, 65, 0.55) 100%);
+            z-index: 1;
+        }
+
+        .hero-section .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 700px;
+            color: white;
+        }
+
+        .hero-section .hero-content h1 {
+            font-size: 3.2rem;
+            font-weight: 700;
+            line-height: 1.15;
+            letter-spacing: -0.02em;
+            margin-bottom: 1rem;
+        }
+
+        .hero-section .hero-content h1 span {
+            color: #f0d3b0;
+            border-bottom: 3px solid #f0d3b0;
+        }
+
+        .hero-section .hero-content p {
+            font-size: 1.2rem;
+            opacity: 0.92;
+            max-width: 580px;
+            margin-bottom: 1.8rem;
+            line-height: 1.6;
+        }
+
+        .hero-section .hero-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .hero-section .hero-tags span {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(6px);
+            padding: 0.5rem 1.5rem;
+            border-radius: 60px;
+            font-weight: 500;
+            font-size: 0.9rem;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .hero-section .hero-tags span i {
+            margin-right: 0.5rem;
+            color: #f0d3b0;
+        }
+
+        /* ===== IMAGE PLACEHOLDER for service cards ===== */
         .img-placeholder {
             width: 100%;
             height: 180px;
-            background: #e4edf0;
-            border-radius: 28px 28px 12px 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #3b6f7e;
-            font-weight: 500;
-            font-size: 0.9rem;
-            margin-bottom: 1.2rem;
-            background-image: repeating-linear-gradient(45deg, #d3e2e7 0px, #d3e2e7 8px, #eaf3f5 8px, #eaf3f5 16px);
-            border: 1px dashed #97b8c4;
+            border-radius: 24px 24px 12px 12px;
             overflow: hidden;
+            margin-bottom: 1rem;
+            flex-shrink: 0;
         }
 
         .img-placeholder img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+            transition: transform 0.4s ease;
         }
 
-        .img-placeholder i {
-            font-size: 2.2rem;
-            opacity: 0.5;
-            margin-right: 0.5rem;
+        .service-card:hover .img-placeholder img {
+            transform: scale(1.04);
         }
 
-        /* ===== SERVICE CARDS with animation ===== */
+        /* ===== SERVICE CARDS ===== */
         .service-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-            margin: 2.5rem 0;
+            gap: 1.8rem;
+            margin: 2rem 0;
         }
 
         .service-card {
             background: white;
-            border-radius: 32px;
+            border-radius: 28px;
             padding: 0 0 1.8rem 0;
             box-shadow: 0 12px 28px -14px rgba(20, 60, 70, 0.10);
             border: 1px solid #eaf0f2;
-            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             overflow: hidden;
             opacity: 0;
-            transform: translateY(40px);
-            animation: fadeUp 0.6s ease forwards;
+            transform: translateY(50px) scale(0.97);
+            animation: cardReveal 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+            display: flex;
+            flex-direction: column;
         }
 
         .service-card:nth-child(1) { animation-delay: 0.05s; }
-        .service-card:nth-child(2) { animation-delay: 0.10s; }
-        .service-card:nth-child(3) { animation-delay: 0.15s; }
-        .service-card:nth-child(4) { animation-delay: 0.20s; }
-        .service-card:nth-child(5) { animation-delay: 0.25s; }
-        .service-card:nth-child(6) { animation-delay: 0.30s; }
-        .service-card:nth-child(7) { animation-delay: 0.35s; }
+        .service-card:nth-child(2) { animation-delay: 0.12s; }
+        .service-card:nth-child(3) { animation-delay: 0.19s; }
+        .service-card:nth-child(4) { animation-delay: 0.26s; }
+        .service-card:nth-child(5) { animation-delay: 0.33s; }
+        .service-card:nth-child(6) { animation-delay: 0.40s; }
+        .service-card:nth-child(7) { animation-delay: 0.47s; }
 
-        @keyframes fadeUp {
-            to {
+        @keyframes cardReveal {
+            0% {
+                opacity: 0;
+                transform: translateY(50px) scale(0.97);
+            }
+            100% {
                 opacity: 1;
-                transform: translateY(0);
+                transform: translateY(0) scale(1);
             }
         }
 
         .service-card:hover {
-            transform: translateY(-8px) scale(1.005);
-            box-shadow: 0 32px 44px -20px #003d4f55;
+            transform: translateY(-10px) scale(1.01);
+            box-shadow: 0 32px 48px -20px #003d4f55;
+            border-color: #b56532;
         }
 
         .service-card .card-body {
-            padding: 0 1.8rem;
-        }
-
-        .service-card .num {
-            font-size: 2rem;
-            font-weight: 700;
-            color: #b56532;
-            opacity: 0.7;
-            letter-spacing: -0.03em;
-            margin-bottom: 0.2rem;
+            padding: 0 1.5rem 0.5rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
         }
 
         .service-card h3 {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             font-weight: 600;
             color: #003148;
             margin-bottom: 0.5rem;
@@ -269,33 +368,41 @@
 
         .service-card p {
             color: #2e4b5a;
-            margin-bottom: 1rem;
+            margin-bottom: 0.8rem;
             font-size: 0.95rem;
+            flex: 1;
         }
 
         .service-card ul {
             list-style: none;
+            margin-bottom: 0.8rem;
         }
 
         .service-card ul li {
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.4rem;
             display: flex;
             gap: 0.6rem;
             align-items: center;
-            font-size: 0.95rem;
+            font-size: 0.9rem;
         }
 
         .service-card ul li i {
             color: #b56532;
             width: 1.2rem;
+            flex-shrink: 0;
         }
 
-        /* ===== ABOUT US SECTION ===== */
+        .service-card .btn-learn {
+            align-self: flex-start;
+            margin-top: auto;
+        }
+
+        /* ===== ABOUT SECTION ===== */
         .about-section {
             background: #ffffff;
-            border-radius: 64px;
-            padding: 3.5rem 3.5rem;
-            margin: 3rem 0;
+            border-radius: 48px;
+            padding: 2.5rem 2rem;
+            margin: 2.5rem 0;
             box-shadow: 0 12px 28px -14px rgba(20, 60, 70, 0.08);
             border: 1px solid #eaf0f2;
         }
@@ -303,50 +410,52 @@
         .about-section .about-grid {
             display: grid;
             grid-template-columns: 2fr 1fr;
-            gap: 3rem;
+            gap: 2rem;
             align-items: start;
         }
 
         .about-section .about-text p {
-            font-size: 1.1rem;
+            font-size: 1rem;
             color: #1f4050;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1.2rem;
             line-height: 1.7;
         }
 
         .about-section .about-highlights {
             display: flex;
             flex-direction: column;
-            gap: 1.2rem;
+            gap: 0.8rem;
         }
 
         .about-section .about-highlights .highlight-item {
             background: #f6fafb;
-            padding: 1.2rem 1.8rem;
+            padding: 0.9rem 1.4rem;
             border-radius: 60px;
             font-weight: 500;
             color: #003148;
             border-left: 5px solid #b56532;
             display: flex;
             align-items: center;
-            gap: 1rem;
+            gap: 0.8rem;
+            font-size: 0.95rem;
         }
 
         .about-section .about-highlights .highlight-item i {
             color: #b56532;
-            font-size: 1.4rem;
-            width: 2rem;
+            font-size: 1.2rem;
+            width: 1.8rem;
         }
 
         .about-section .about-email {
-            margin-top: 1.5rem;
+            margin-top: 1.2rem;
             background: #eef5f7;
-            padding: 0.8rem 2rem;
+            padding: 0.7rem 1.6rem;
             border-radius: 60px;
             display: inline-flex;
             align-items: center;
             gap: 0.8rem;
             font-weight: 500;
+            font-size: 0.95rem;
         }
 
         .about-section .about-email i {
@@ -358,17 +467,10 @@
             color: #003148;
         }
 
-        @media (max-width: 900px) {
-            .about-section .about-grid {
-                grid-template-columns: 1fr;
-                gap: 2rem;
-            }
-        }
-
         /* ===== CIRCULAR LOGO FRAME ===== */
         .circle-frame {
-            width: 120px;
-            height: 120px;
+            width: 100px;
+            height: 100px;
             border-radius: 50%;
             border: 4px solid #b56532;
             background: #f5f0eb;
@@ -377,6 +479,7 @@
             justify-content: center;
             overflow: hidden;
             box-shadow: 0 12px 24px -12px rgba(0, 0, 0, 0.15);
+            flex-shrink: 0;
         }
 
         .circle-frame img {
@@ -385,106 +488,107 @@
             object-fit: cover;
         }
 
-        .circle-frame .placeholder-icon {
-            font-size: 3.5rem;
-            color: #b56532;
-            opacity: 0.5;
-        }
-
         /* ===== HELLO SECTION ===== */
         .hello-section {
             background: #eef5f7;
-            border-radius: 80px;
-            padding: 3rem 3.5rem;
-            margin: 3rem 0;
+            border-radius: 60px;
+            padding: 2rem 2.5rem;
+            margin: 2.5rem 0;
             display: flex;
             flex-wrap: wrap;
             align-items: center;
             justify-content: space-between;
-            gap: 2rem;
+            gap: 1.5rem;
+        }
+
+        .hello-section .hello-left {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
         }
 
         .hello-section .hello-text h2 {
-            font-size: 2.2rem;
+            font-size: 1.8rem;
             font-weight: 600;
             color: #002e40;
         }
 
         .hello-section .hello-text p {
-            font-size: 1.1rem;
+            font-size: 1rem;
             color: #2a4f5e;
-            margin-top: 0.3rem;
         }
 
         .hello-section .hello-email {
             background: white;
-            padding: 0.8rem 2rem;
+            padding: 0.6rem 1.6rem;
             border-radius: 60px;
             font-weight: 500;
             box-shadow: 0 8px 18px -8px rgba(0, 50, 60, 0.1);
             border: 1px solid #cbdce2;
             display: inline-flex;
             align-items: center;
-            gap: 0.8rem;
+            gap: 0.6rem;
+            font-size: 0.95rem;
+            flex-shrink: 0;
         }
 
         .hello-section .hello-email i {
             color: #b56532;
-            font-size: 1.3rem;
         }
 
         .hello-section .hello-email a {
             text-decoration: none;
             color: #003148;
-            font-weight: 500;
         }
 
         /* ===== FEATURED BOX ===== */
         .featured-box {
             background: #ffffff;
-            border-radius: 48px;
-            padding: 2.5rem 3rem;
+            border-radius: 40px;
+            padding: 2rem 2.5rem;
             box-shadow: 0 20px 35px -12px rgba(0, 50, 65, 0.08);
             border-left: 10px solid #b56532;
-            margin: 3rem 0;
+            margin: 2.5rem 0;
         }
 
         .featured-box .badge {
             background: #003b4f0d;
-            padding: 0.4rem 1.2rem;
+            padding: 0.3rem 1rem;
             border-radius: 40px;
             font-weight: 600;
             color: #003b4f;
             display: inline-block;
-            margin-bottom: 1rem;
+            margin-bottom: 0.8rem;
+            font-size: 0.85rem;
         }
 
         .featured-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 1.2rem;
-            margin: 1.5rem 0;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 0.8rem;
+            margin: 1rem 0;
         }
 
         .featured-grid div {
             background: #f6fafb;
-            padding: 0.8rem 1.2rem;
+            padding: 0.6rem 1rem;
             border-radius: 40px;
-            font-size: 0.95rem;
+            font-size: 0.9rem;
         }
 
         /* ===== ENGAGE ===== */
         .engage-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
-            margin: 2.5rem 0;
+            gap: 1.5rem;
+            margin: 2rem 0;
         }
 
         .engage-item {
             background: white;
-            border-radius: 32px;
-            padding: 2rem 1.8rem;
+            border-radius: 28px;
+            padding: 1.8rem 1.5rem;
             border: 1px solid #e2edf0;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
@@ -495,23 +599,29 @@
         }
 
         .engage-item h4 {
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             color: #003148;
+        }
+
+        .engage-item p {
+            font-size: 0.95rem;
+            color: #2e4b5a;
         }
 
         .who-grid {
             display: flex;
             flex-wrap: wrap;
-            gap: 1rem;
+            gap: 0.8rem;
             margin: 1.5rem 0;
         }
 
         .who-grid span {
             background: white;
-            padding: 0.5rem 1.8rem;
+            padding: 0.4rem 1.4rem;
             border-radius: 60px;
             border: 1px solid #d0dfe4;
             font-weight: 500;
+            font-size: 0.9rem;
             transition: all 0.2s;
         }
 
@@ -524,17 +634,18 @@
         .cta-block {
             background: #142f3b;
             color: white;
-            border-radius: 80px;
-            padding: 3.5rem 3rem;
-            margin: 3rem 0;
+            border-radius: 60px;
+            padding: 2.5rem 2.5rem;
+            margin: 2.5rem 0;
             display: flex;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
+            gap: 1.5rem;
         }
 
         .cta-block h2 {
-            font-size: 2.2rem;
+            font-size: 1.8rem;
             font-weight: 500;
         }
 
@@ -547,15 +658,15 @@
             background: #e6c09a;
         }
 
-        /* ===== FLOATING 'GET IN TOUCH' BUTTON ===== */
+        /* ===== FLOATING BUTTON ===== */
         .floating-contact {
             position: fixed;
-            bottom: 2.5rem;
-            right: 2.5rem;
+            bottom: 2rem;
+            right: 2rem;
             background: #b56532;
             color: white;
-            width: 64px;
-            height: 64px;
+            width: 56px;
+            height: 56px;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -564,12 +675,12 @@
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             z-index: 999;
             text-decoration: none;
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             animation: pulseGlow 2.5s infinite;
         }
 
         .floating-contact:hover {
-            transform: scale(1.12) rotate(-4deg);
+            transform: scale(1.12);
             background: #9e4f2a;
             box-shadow: 0 16px 40px -8px rgba(181, 101, 50, 0.7);
         }
@@ -581,12 +692,12 @@
 
         .floating-contact .tooltip {
             position: absolute;
-            right: 76px;
+            right: 68px;
             background: #142f3b;
             color: white;
-            padding: 0.5rem 1.2rem;
+            padding: 0.4rem 1rem;
             border-radius: 60px;
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             font-weight: 500;
             white-space: nowrap;
             opacity: 0;
@@ -604,8 +715,8 @@
         .footer {
             background: #0f2a33;
             color: #dddad5;
-            padding: 3rem 0;
-            border-radius: 60px 60px 0 0;
+            padding: 2.5rem 0;
+            border-radius: 40px 40px 0 0;
             margin-top: 2rem;
         }
 
@@ -614,6 +725,7 @@
             flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
+            gap: 1rem;
         }
 
         .footer a {
@@ -629,43 +741,203 @@
             border: none;
             height: 1px;
             background: linear-gradient(to right, #cbd8de, transparent);
-            margin: 2rem 0;
+            margin: 1.5rem 0;
         }
 
-        @media (max-width: 700px) {
+        /* ===== RESPONSIVE FIXES ===== */
+        @media (max-width: 1024px) {
+            .about-section .about-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 1rem;
+            }
+
             .navbar {
                 flex-direction: column;
+                align-items: stretch;
+                gap: 0.8rem;
+            }
+
+            .nav-links {
+                justify-content: center;
                 gap: 1rem;
             }
-            .cta-block {
-                flex-direction: column;
-                gap: 2rem;
-                text-align: center;
+
+            .nav-links a {
+                font-size: 0.85rem;
             }
+
+            .btn-outline {
+                align-self: center;
+            }
+
+            .hero-section {
+                padding: 2.5rem 1.5rem;
+                min-height: 300px;
+                border-radius: 28px;
+                margin: 1rem 0 1.5rem;
+            }
+
+            .hero-section .hero-content h1 {
+                font-size: 2.2rem;
+            }
+
+            .hero-section .hero-content p {
+                font-size: 1rem;
+            }
+
+            .hero-section .hero-tags span {
+                font-size: 0.8rem;
+                padding: 0.4rem 1rem;
+            }
+
+            .service-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .service-card {
+                max-width: 100%;
+            }
+
+            .service-card .card-body {
+                padding: 0 1.2rem 0.5rem;
+            }
+
+            .service-card h3 {
+                font-size: 1.2rem;
+            }
+
+            .service-card ul li {
+                font-size: 0.85rem;
+            }
+
+            .img-placeholder {
+                height: 160px;
+            }
+
+            .about-section {
+                padding: 1.8rem 1.2rem;
+                border-radius: 32px;
+            }
+
+            .about-section .about-highlights .highlight-item {
+                font-size: 0.85rem;
+                padding: 0.7rem 1rem;
+            }
+
             .hello-section {
                 flex-direction: column;
                 text-align: center;
-                padding: 2rem;
+                padding: 1.8rem 1.2rem;
+                border-radius: 40px;
             }
-            .about-section {
+
+            .hello-section .hello-left {
+                justify-content: center;
+            }
+
+            .circle-frame {
+                width: 80px;
+                height: 80px;
+            }
+
+            .featured-box {
+                padding: 1.5rem 1.2rem;
+                border-radius: 32px;
+            }
+
+            .featured-box h2 {
+                font-size: 1.6rem !important;
+            }
+
+            .featured-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-block {
+                flex-direction: column;
+                text-align: center;
                 padding: 2rem 1.5rem;
+                border-radius: 40px;
             }
-            .floating-contact {
-                bottom: 1.5rem;
-                right: 1.5rem;
-                width: 56px;
-                height: 56px;
+
+            .cta-block h2 {
                 font-size: 1.5rem;
             }
+
+            .engage-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .who-grid {
+                justify-content: center;
+            }
+
+            .footer .container {
+                flex-direction: column;
+                text-align: center;
+                gap: 0.8rem;
+            }
+
+            .floating-contact {
+                bottom: 1.2rem;
+                right: 1.2rem;
+                width: 50px;
+                height: 50px;
+                font-size: 1.3rem;
+            }
+
             .floating-contact .tooltip {
                 display: none;
+            }
+
+            .section-title {
+                font-size: 1.6rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-section .hero-content h1 {
+                font-size: 1.8rem;
+            }
+
+            .hero-section .hero-tags span {
+                font-size: 0.7rem;
+                padding: 0.3rem 0.8rem;
+            }
+
+            .logo-text {
+                font-size: 1.1rem;
+            }
+
+            .logo-symbol {
+                width: 36px;
+                height: 36px;
+            }
+
+            .logo-symbol span {
+                font-size: 1.4rem;
+            }
+
+            .nav-links {
+                gap: 0.6rem;
+            }
+
+            .nav-links a {
+                font-size: 0.75rem;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- header with logo image -->
+        <!-- ===== HEADER / NAV ===== -->
         <div class="navbar">
             <div class="logo-mark">
                 <div class="logo-symbol">
@@ -686,24 +958,22 @@
             <button class="btn-outline"><i class="fa-regular fa-comments"></i> Connect</button>
         </div>
 
-        <!-- HERO -->
-        <section style="padding: 2rem 0 1rem;">
-            <div style="display: flex; flex-direction: column; gap: 1.2rem;">
-                <h1 style="font-size: 4rem; font-weight: 700; letter-spacing: -0.03em; color: #002a35; line-height: 1.1;">
-                    Strategy. <span style="color: #b56532;">Access.</span> Execution.
-                </h1>
-                <p style="font-size: 1.4rem; max-width: 800px; color: #2c4f5e; font-weight: 350;">
-                    We advise governments, nonprofits, and global organizations on navigating complex environments, unlocking strategic partnerships, and delivering high-impact initiatives—particularly in Los Angeles and other global gateway markets.
-                </p>
-                <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin: 1.5rem 0;">
-                    <span><i class="fa-regular fa-scale-balanced" style="color:#b56532;"></i> Policy Expertise</span>
-                    <span><i class="fa-regular fa-globe" style="color:#b56532;"></i> Global Relationships</span>
-                    <span><i class="fa-regular fa-gear" style="color:#b56532;"></i> Execution Capability</span>
+        <!-- ===== HERO SECTION with background image ===== -->
+        <section class="hero-section">
+            <div class="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Strategy. <span>Access.</span> Execution.</h1>
+                <p>We advise governments, nonprofits, and global organizations on navigating complex environments, unlocking strategic partnerships, and delivering high-impact initiatives—particularly in Los Angeles and other global gateway markets.</p>
+                <div class="hero-tags">
+                    <span><i class="fa-regular fa-scale-balanced"></i> Policy Expertise</span>
+                    <span><i class="fa-regular fa-globe"></i> Global Relationships</span>
+                    <span><i class="fa-regular fa-gear"></i> Execution Capability</span>
                 </div>
             </div>
         </section>
 
-        <!-- ===== ABOUT US SECTION (new) ===== -->
+        <!-- ===== ABOUT SECTION ===== -->
         <section id="about" class="about-section">
             <h2 class="section-title"><i class="fa-regular fa-building"></i> About Manda Strategies</h2>
             <div class="about-grid">
@@ -729,153 +999,152 @@
                     <div class="highlight-item">
                         <i class="fa-regular fa-people-group"></i> Fostering Inclusive & Resilient Communities
                     </div>
-                    <div style="margin-top: 1rem; padding: 1rem 1.8rem; background: #f0f6f9; border-radius: 40px; text-align: center; font-weight: 500; color: #003148;">
+                    <div style="margin-top: 0.8rem; padding: 0.8rem 1.4rem; background: #f0f6f9; border-radius: 40px; text-align: center; font-weight: 500; color: #003148; font-size: 0.95rem;">
                         <i class="fa-regular fa-star" style="color:#b56532;"></i> Over a decade of Los Angeles experience
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- SERVICES with image placeholders & animation -->
-        <!-- ===== SERVICES SECTION with stock images ===== -->
-<section id="services" style="margin: 3rem 0;">
-    <h2 class="section-title"><i class="fa-regular fa-briefcase"></i> Our Services</h2>
-    <div class="service-grid">
-        <!-- card 01 - Strategic Advisory -->
-        <div class="service-card">
-            <div class="img-placeholder">
-                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop&crop=center" alt="Strategic advisory meeting" />
-            </div>
-            <div class="card-body">
-                <div class="num">01</div>
-                <h3>Strategic Advisory & Public Affairs</h3>
-                <p>Navigate political, regulatory, and stakeholder landscapes.</p>
-                <ul>
-                    <li><i class="fa-regular fa-building"></i> Government relations</li>
-                    <li><i class="fa-regular fa-map"></i> Stakeholder mapping</li>
-                    <li><i class="fa-regular fa-flag"></i> Policy navigation</li>
-                    <li><i class="fa-regular fa-handshake"></i> P3 structuring</li>
-                </ul>
-            </div>
-        </div>
+        <!-- ===== SERVICES SECTION with stock images, no numbers, learn more buttons ===== -->
+        <section id="services" style="margin: 2.5rem 0;">
+            <h2 class="section-title"><i class="fa-regular fa-briefcase"></i> Our Services</h2>
+            <div class="service-grid">
+                <!-- card 01 - Strategic Advisory -->
+                <div class="service-card">
+                    <div class="img-placeholder">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop&crop=center" alt="Strategic advisory meeting" />
+                    </div>
+                    <div class="card-body">
+                        <h3>Strategic Advisory & Public Affairs</h3>
+                        <p>Navigate political, regulatory, and stakeholder landscapes.</p>
+                        <ul>
+                            <li><i class="fa-regular fa-building"></i> Government relations</li>
+                            <li><i class="fa-regular fa-map"></i> Stakeholder mapping</li>
+                            <li><i class="fa-regular fa-flag"></i> Policy navigation</li>
+                            <li><i class="fa-regular fa-handshake"></i> P3 structuring</li>
+                        </ul>
+                        <a href="#" class="btn-learn"><i class="fa-regular fa-arrow-right"></i> Learn More</a>
+                    </div>
+                </div>
 
-        <!-- card 02 - International Relations -->
-        <div class="service-card">
-            <div class="img-placeholder">
-                <img src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=600&h=400&fit=crop&crop=center" alt="International diplomacy" />
-            </div>
-            <div class="card-body">
-                <div class="num">02</div>
-                <h3>International Relations & Market Entry</h3>
-                <p>Establish a strategic U.S. presence for foreign governments and companies.</p>
-                <ul>
-                    <li><i class="fa-regular fa-arrow-right"></i> U.S. market entry</li>
-                    <li><i class="fa-regular fa-globe"></i> Diplomatic engagement</li>
-                    <li><i class="fa-regular fa-ship"></i> Trade missions</li>
-                    <li><i class="fa-regular fa-handshake"></i> Bilateral partnerships</li>
-                </ul>
-            </div>
-        </div>
+                <!-- card 02 - International Relations -->
+                <div class="service-card">
+                    <div class="img-placeholder">
+                        <img src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=600&h=400&fit=crop&crop=center" alt="International diplomacy" />
+                    </div>
+                    <div class="card-body">
+                        <h3>International Relations & Market Entry</h3>
+                        <p>Establish a strategic U.S. presence for foreign governments and companies.</p>
+                        <ul>
+                            <li><i class="fa-regular fa-arrow-right"></i> U.S. market entry</li>
+                            <li><i class="fa-regular fa-globe"></i> Diplomatic engagement</li>
+                            <li><i class="fa-regular fa-ship"></i> Trade missions</li>
+                            <li><i class="fa-regular fa-handshake"></i> Bilateral partnerships</li>
+                        </ul>
+                        <a href="#" class="btn-learn"><i class="fa-regular fa-arrow-right"></i> Learn More</a>
+                    </div>
+                </div>
 
-        <!-- card 03 - Mega-Events -->
-        <div class="service-card">
-            <div class="img-placeholder">
-                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop&crop=center" alt="Global mega-event" />
-            </div>
-            <div class="card-body">
-                <div class="num">03</div>
-                <h3>Mega-Event Strategy & Global Activations</h3>
-                <p>Maximize visibility around major global events.</p>
-                <ul>
-                    <li><i class="fa-regular fa-futbol"></i> FIFA WC 2026</li>
-                    <li><i class="fa-regular fa-olympic"></i> Olympics 2028</li>
-                    <li><i class="fa-regular fa-people-arrows"></i> Fan zone strategy</li>
-                    <li><i class="fa-regular fa-trophy"></i> Sponsorship</li>
-                </ul>
-            </div>
-        </div>
+                <!-- card 03 - Mega-Events -->
+                <div class="service-card">
+                    <div class="img-placeholder">
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop&crop=center" alt="Global mega-event" />
+                    </div>
+                    <div class="card-body">
+                        <h3>Mega-Event Strategy & Global Activations</h3>
+                        <p>Maximize visibility around major global events.</p>
+                        <ul>
+                            <li><i class="fa-regular fa-futbol"></i> FIFA WC 2026</li>
+                            <li><i class="fa-regular fa-olympic"></i> Olympics 2028</li>
+                            <li><i class="fa-regular fa-people-arrows"></i> Fan zone strategy</li>
+                            <li><i class="fa-regular fa-trophy"></i> Sponsorship</li>
+                        </ul>
+                        <a href="#" class="btn-learn"><i class="fa-regular fa-arrow-right"></i> Learn More</a>
+                    </div>
+                </div>
 
-        <!-- card 04 - Business Development -->
-        <div class="service-card">
-            <div class="img-placeholder">
-                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop&crop=center" alt="Business partnership" />
-            </div>
-            <div class="card-body">
-                <div class="num">04</div>
-                <h3>Business Development & Strategic Partnerships</h3>
-                <p>Structure high-value partnerships for growth & impact.</p>
-                <ul>
-                    <li><i class="fa-regular fa-file-signature"></i> Deal structuring</li>
-                    <li><i class="fa-regular fa-building-columns"></i> B2G strategy</li>
-                    <li><i class="fa-regular fa-chart-simple"></i> Pipeline development</li>
-                    <li><i class="fa-regular fa-user-plus"></i> Introductions</li>
-                </ul>
-            </div>
-        </div>
+                <!-- card 04 - Business Development -->
+                <div class="service-card">
+                    <div class="img-placeholder">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop&crop=center" alt="Business partnership" />
+                    </div>
+                    <div class="card-body">
+                        <h3>Business Development & Strategic Partnerships</h3>
+                        <p>Structure high-value partnerships for growth & impact.</p>
+                        <ul>
+                            <li><i class="fa-regular fa-file-signature"></i> Deal structuring</li>
+                            <li><i class="fa-regular fa-building-columns"></i> B2G strategy</li>
+                            <li><i class="fa-regular fa-chart-simple"></i> Pipeline development</li>
+                            <li><i class="fa-regular fa-user-plus"></i> Introductions</li>
+                        </ul>
+                        <a href="#" class="btn-learn"><i class="fa-regular fa-arrow-right"></i> Learn More</a>
+                    </div>
+                </div>
 
-        <!-- card 05 - Urban Strategy -->
-        <div class="service-card">
-            <div class="img-placeholder">
-                <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=600&h=400&fit=crop&crop=center" alt="Urban development" />
-            </div>
-            <div class="card-body">
-                <div class="num">05</div>
-                <h3>Urban Strategy, Mobility & Infrastructure</h3>
-                <p>Align projects with public sector priorities.</p>
-                <ul>
-                    <li><i class="fa-regular fa-train"></i> Transit strategy</li>
-                    <li><i class="fa-regular fa-bicycle"></i> Micromobility</li>
-                    <li><i class="fa-regular fa-vector-square"></i> Public land access</li>
-                    <li><i class="fa-regular fa-calendar"></i> Event logistics</li>
-                </ul>
-            </div>
-        </div>
+                <!-- card 05 - Urban Strategy -->
+                <div class="service-card">
+                    <div class="img-placeholder">
+                        <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=600&h=400&fit=crop&crop=center" alt="Urban development" />
+                    </div>
+                    <div class="card-body">
+                        <h3>Urban Strategy, Mobility & Infrastructure</h3>
+                        <p>Align projects with public sector priorities.</p>
+                        <ul>
+                            <li><i class="fa-regular fa-train"></i> Transit strategy</li>
+                            <li><i class="fa-regular fa-bicycle"></i> Micromobility</li>
+                            <li><i class="fa-regular fa-vector-square"></i> Public land access</li>
+                            <li><i class="fa-regular fa-calendar"></i> Event logistics</li>
+                        </ul>
+                        <a href="#" class="btn-learn"><i class="fa-regular fa-arrow-right"></i> Learn More</a>
+                    </div>
+                </div>
 
-        <!-- card 06 - Nonprofit Development -->
-        <div class="service-card">
-            <div class="img-placeholder">
-                <img src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=600&h=400&fit=crop&crop=center" alt="Nonprofit community" />
-            </div>
-            <div class="card-body">
-                <div class="num">06</div>
-                <h3>Nonprofit & Institutional Development</h3>
-                <p>Build structure, partnerships, and capacity to scale.</p>
-                <ul>
-                    <li><i class="fa-regular fa-scale-balanced"></i> Nonprofit formation</li>
-                    <li><i class="fa-regular fa-users"></i> Board development</li>
-                    <li><i class="fa-regular fa-hand-holding-dollar"></i> Fundraising</li>
-                    <li><i class="fa-regular fa-pen-ruler"></i> Program design</li>
-                </ul>
-            </div>
-        </div>
+                <!-- card 06 - Nonprofit Development -->
+                <div class="service-card">
+                    <div class="img-placeholder">
+                        <img src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=600&h=400&fit=crop&crop=center" alt="Nonprofit community" />
+                    </div>
+                    <div class="card-body">
+                        <h3>Nonprofit & Institutional Development</h3>
+                        <p>Build structure, partnerships, and capacity to scale.</p>
+                        <ul>
+                            <li><i class="fa-regular fa-scale-balanced"></i> Nonprofit formation</li>
+                            <li><i class="fa-regular fa-users"></i> Board development</li>
+                            <li><i class="fa-regular fa-hand-holding-dollar"></i> Fundraising</li>
+                            <li><i class="fa-regular fa-pen-ruler"></i> Program design</li>
+                        </ul>
+                        <a href="#" class="btn-learn"><i class="fa-regular fa-arrow-right"></i> Learn More</a>
+                    </div>
+                </div>
 
-        <!-- card 07 - Implementation -->
-        <div class="service-card">
-            <div class="img-placeholder">
-                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&fit=crop&crop=center" alt="Project implementation" />
+                <!-- card 07 - Implementation -->
+                <div class="service-card">
+                    <div class="img-placeholder">
+                        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&fit=crop&crop=center" alt="Project implementation" />
+                    </div>
+                    <div class="card-body">
+                        <h3>Implementation & Special Projects</h3>
+                        <p>Hands-on execution to ensure results are delivered.</p>
+                        <ul>
+                            <li><i class="fa-regular fa-list-check"></i> End-to-end project management</li>
+                            <li><i class="fa-regular fa-calendar-check"></i> Event & program execution</li>
+                            <li><i class="fa-regular fa-user-tie"></i> Interim leadership</li>
+                            <li><i class="fa-regular fa-clock"></i> Rapid-response support</li>
+                        </ul>
+                        <a href="#" class="btn-learn"><i class="fa-regular fa-arrow-right"></i> Learn More</a>
+                    </div>
+                </div>
             </div>
-            <div class="card-body">
-                <div class="num">07</div>
-                <h3>Implementation & Special Projects</h3>
-                <p>Hands-on execution to ensure results are delivered.</p>
-                <ul>
-                    <li><i class="fa-regular fa-list-check"></i> End-to-end project management</li>
-                    <li><i class="fa-regular fa-calendar-check"></i> Event & program execution</li>
-                    <li><i class="fa-regular fa-user-tie"></i> Interim leadership</li>
-                    <li><i class="fa-regular fa-clock"></i> Rapid-response support</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    </section>
+        </section>
 
-        <!-- FEATURED ENGAGEMENT -->
+        <!-- ===== FEATURED ENGAGEMENT ===== -->
         <div class="featured-box" id="projects">
             <span class="badge"><i class="fa-regular fa-star"></i> Featured Engagement · Active</span>
-            <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center;">
+            <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: center;">
                 <div style="flex: 1; min-width: 200px;">
-                    <h2 style="font-size: 2.5rem; font-weight: 600; color: #002e40;">A New Start</h2>
-                    <p style="font-size: 1.1rem; margin: 0.5rem 0 1.5rem;">
+                    <h2 style="font-size: 2rem; font-weight: 600; color: #002e40;">A New Start</h2>
+                    <p style="font-size: 1rem; margin: 0.5rem 0 1rem;">
                         Manda Strategies is currently advising <strong>A New Start</strong>, a startup nonprofit focused on serving families—particularly those supporting individuals with developmental disabilities—who face food insecurity in the Los Angeles region.
                     </p>
                     <div class="featured-grid">
@@ -884,27 +1153,28 @@
                         <div><i class="fa-regular fa-clipboard"></i> Organizational readiness assessment</div>
                         <div><i class="fa-regular fa-layer-group"></i> Scalable operating framework</div>
                     </div>
-                    <div style="margin-top: 1rem; background: #f3f8fa; padding: 1.2rem; border-radius: 40px;">
+                    <div style="margin-top: 0.8rem; background: #f3f8fa; padding: 1rem; border-radius: 32px; font-size: 0.95rem;">
                         <p><strong>Focus areas:</strong> Governance & compliance · Staffing & infrastructure gaps · Community need analysis · Long-term growth planning</p>
-                        <p style="margin-top: 0.5rem;"><i class="fa-regular fa-bullseye" style="color:#b56532;"></i> Target outcome: Position A New Start as a credible, compliant, and scalable food distribution partner.</p>
+                        <p style="margin-top: 0.4rem;"><i class="fa-regular fa-bullseye" style="color:#b56532;"></i> Target outcome: Position A New Start as a credible, compliant, and scalable food distribution partner.</p>
                     </div>
                 </div>
                 <div style="flex-shrink: 0;">
-                    <div class="img-placeholder" style="width: 200px; height: 200px; border-radius: 40px;"><img src="images/logo.jpeg" alt="project visual" /></div>
+                    <div style="width: 160px; height: 160px; border-radius: 32px; overflow: hidden; background: #e4edf0;">
+                        <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&h=400&fit=crop&crop=center" alt="Community project" style="width:100%;height:100%;object-fit:cover;" />
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- HELLO SECTION with circular logo frame + email -->
+        <!-- ===== HELLO SECTION ===== -->
         <div class="hello-section">
-            <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
-                <!-- circular logo frame with image -->
+            <div class="hello-left">
                 <div class="circle-frame">
                     <img src="images/logo.jpeg" alt="Manda Strategies logo" />
                 </div>
                 <div class="hello-text">
                     <h2>👋 Hello</h2>
-                    <p>Let’s start a conversation about your next move.</p>
+                    <p>Let's start a conversation about your next move.</p>
                 </div>
             </div>
             <div class="hello-email">
@@ -913,8 +1183,8 @@
             </div>
         </div>
 
-        <!-- HOW WE ENGAGE -->
-        <section style="margin: 3rem 0;">
+        <!-- ===== HOW WE ENGAGE ===== -->
+        <section style="margin: 2.5rem 0;">
             <h2 class="section-title"><i class="fa-regular fa-handshake"></i> How We Engage</h2>
             <div class="engage-grid">
                 <div class="engage-item"><h4><i class="fa-regular fa-clock" style="color:#b56532;"></i> Advisory Retainers</h4><p>Ongoing strategic guidance, access, and support for clients navigating complex or evolving environments.</p></div>
@@ -923,7 +1193,7 @@
             </div>
         </section>
 
-        <!-- WHO WE WORK WITH -->
+        <!-- ===== WHO WE WORK WITH ===== -->
         <section>
             <h2 class="section-title"><i class="fa-regular fa-users"></i> Who We Work With</h2>
             <div class="who-grid">
@@ -936,38 +1206,38 @@
             </div>
         </section>
 
-        <!-- CTA -->
+        <!-- ===== CTA ===== -->
         <div class="cta-block">
             <div>
                 <h2>Ready to move from concept <br>to implementation?</h2>
-                <p style="margin-top: 0.5rem; opacity: 0.9;">Let's discuss how Manda Strategies can support your goals.</p>
+                <p style="margin-top: 0.3rem; opacity: 0.9;">Let's discuss how Manda Strategies can support your goals.</p>
             </div>
             <a href="mailto:mandastrategiesllc@gmail.com" class="btn-primary" style="text-decoration: none;"><i class="fa-regular fa-arrow-right"></i> Get in touch ↗</a>
         </div>
 
         <hr>
-        <div style="display: flex; justify-content: space-between; flex-wrap: wrap; padding: 1rem 0 2.5rem;">
+        <div style="display: flex; justify-content: space-between; flex-wrap: wrap; padding: 0.5rem 0 2rem; gap: 0.8rem; font-size: 0.95rem;">
             <span><i class="fa-regular fa-envelope" style="color:#b56532;"></i> mandastrategiesllc@gmail.com</span>
             <span><i class="fa-regular fa-compass"></i> Los Angeles · global</span>
         </div>
     </div>
 
-    <!-- FLOATING 'GET IN TOUCH' BUTTON -->
+    <!-- ===== FLOATING CONTACT ===== -->
     <a href="mailto:mandastrategiesllc@gmail.com" class="floating-contact" aria-label="Get in touch via email">
         <i class="fa-regular fa-envelope"></i>
         <span class="tooltip">Get in touch</span>
     </a>
 
-    <!-- footer -->
+    <!-- ===== FOOTER ===== -->
     <div class="footer">
         <div class="container">
             <div class="logo-mark" style="gap: 0.5rem;">
-                <div class="logo-symbol" style="width: 38px; height: 38px; background: #3f717d; overflow: hidden;">
+                <div class="logo-symbol" style="width: 36px; height: 36px; background: #3f717d; overflow: hidden;">
                     <img src="images/logo.jpeg" alt="Manda Strategies" style="width:100%;height:100%;object-fit:cover;" />
                 </div>
-                <span style="font-size: 1.5rem; font-weight: 500; color: white;">Manda Strategies</span>
+                <span style="font-size: 1.2rem; font-weight: 500; color: white;">Manda Strategies</span>
             </div>
-            <div style="display: flex; gap: 2rem;">
+            <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; font-size: 0.9rem;">
                 <a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
                 <a href="#"><i class="fa-regular fa-newspaper"></i> press</a>
                 <span>© 2025 subnational diplomacy</span>
